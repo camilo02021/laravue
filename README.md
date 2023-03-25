@@ -50,10 +50,10 @@ php artisan migrate --seed
 npm install
 
 # develop
-npm run dev # or npm run watch
+npm run dev # or npm run dev
 
 # Build on production
-npm run production
+npm run build
 ```
 
 #### Docker
@@ -65,7 +65,7 @@ Build static files within Laravel container with npm
 # Get laravel docker container ID from containers list
 docker ps
 
-docker exec -it <container ID> npm run dev # or npm run watch
+docker exec -it <container ID> npm run dev # or npm run dev
 # Where <container ID> is the "laravel" container name, ex: src_laravel_1
 ```
 Open http://localhost:8000 (laravel container port declared in `docker-compose.yml`) to access Laravue
