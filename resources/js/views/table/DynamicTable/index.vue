@@ -13,8 +13,8 @@
 </template>
 
 <script>
-import FixedThead from './FixedThead';
-import UnfixedThead from './UnfixedThead';
+import FixedThead from './FixedThead.vue';
+import UnfixedThead from './UnfixedThead.vue';
 
 export default {
   name: 'DynamicTable',

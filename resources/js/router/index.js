@@ -233,7 +233,7 @@ export const asyncRoutes = [
 const createRouter = () => new Router({
   // mode: 'history', // require service support
   scrollBehavior: () => ({ y: 0 }),
-  base: process.env.MIX_LARAVUE_PATH,
+  base: import.meta.env.VITE_LARAVUE_PATH,
   routes: constantRoutes,
 });
 

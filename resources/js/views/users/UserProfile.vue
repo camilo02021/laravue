@@ -16,9 +16,9 @@
 
 <script>
 import Resource from '@/api/resource';
-import UserBio from './components/UserBio';
-import UserCard from './components/UserCard';
-import UserActivity from './components/UserActivity';
+import UserBio from './components/UserBio.vue';
+import UserCard from './components/UserCard.vue';
+import UserActivity from './components/UserActivity.vue';
 
 const userResource = new Resource('users');
 export default {
