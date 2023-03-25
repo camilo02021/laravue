@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import TabPane from './components/TabPane';
+import TabPane from './components/TabPane.vue';
 
 export default {
   name: 'Tab',

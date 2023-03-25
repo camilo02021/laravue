@@ -99,7 +99,7 @@
 </template>
 
 <script>
-import Sticky from '@/components/Sticky';
+import Sticky from '@/components/Sticky.vue';
 
 export default {
   name: 'StickyDemo',

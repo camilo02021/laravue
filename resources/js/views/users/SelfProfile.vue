@@ -15,9 +15,9 @@
 </template>
 
 <script>
-import UserBio from './components/UserBio';
-import UserCard from './components/UserCard';
-import UserActivity from './components/UserActivity';
+import UserBio from './components/UserBio.vue';
+import UserCard from './components/UserCard.vue';
+import UserActivity from './components/UserActivity.vue';
 
 export default {
   name: 'SelfProfile',

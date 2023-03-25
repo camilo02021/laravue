@@ -109,10 +109,10 @@
 </template>
 
 <script>
-import Tinymce from '@/components/Tinymce';
-import Upload from '@/components/Upload/SingleImage';
+import Tinymce from '@/components/Tinymce.vue';
+import Upload from '@/components/Upload/SingleImage.vue';
 import MDinput from '@/components/MDinput';
-import Sticky from '@/components/Sticky'; // Sticky header
+import Sticky from '@/components/Sticky.vue'; // Sticky header
 import { validURL } from '@/utils/validate';
 import { fetchArticle } from '@/api/article';
 import { userSearch } from '@/api/search';

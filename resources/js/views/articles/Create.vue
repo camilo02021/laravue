@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import ArticleDetail from './components/ArticleDetail';
+import ArticleDetail from './components/ArticleDetail.vue';
 
 export default {
   name: 'CreateForm',

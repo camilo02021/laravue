@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import BackToTop from '@/components/BackToTop';
+import BackToTop from '@/components/BackToTop.vue';
 
 export default {
   name: 'BackToTopDemo',
